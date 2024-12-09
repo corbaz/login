@@ -1,16 +1,21 @@
 {
   "expo": {
+    "newArchEnabled": true,
     "name": "login",
-    "slug": "login",
+    "slug": "login-slug",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
-    "newArchEnabled": true,
+    "scheme": "login",
+    "experiments": {
+      "typedRoutes": true,
+      "tsconfigPaths": true
+    },
     "splash": {
       "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#D6001C"
     },
     "ios": {
       "supportsTablet": true
@@ -18,8 +23,9 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+        "backgroundColor": "#D6001C"
+      },
+      "package": "com.anonymous.login"
     },
     "web": {
       "favicon": "./assets/favicon.png"
